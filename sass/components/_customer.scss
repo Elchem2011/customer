@@ -13,28 +13,30 @@ li {
   list-style-type: none;
 }
 
+
 .section-customer {
   padding-top: 60px;
-  padding-bottom: 60px;
+  padding-bottom: 110px;
   margin-left: auto;
   margin-right: auto;
 
   background-image: url('../images/customers/mob-bcg-customer.png');
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: 100% 100%;
+  
 
   @media screen and (min-width: 768px) {
     padding-top: 60px;
-    padding-bottom: 46px;
+    padding-bottom: 134px;
 
     background-image: url('../images/customers/tab-bcg-customer.png');
-    background-position: 50% 30%;
+    background-position: 100% 100%;
   }
 
   @media screen and (min-width: 1280px) {
     padding-top: 100px;
-    padding-bottom: 134px;
+    padding-bottom: 200px;
     padding-left: 16px;
 
     background-image: url('../images/customers/desktop-bcg-customer.png');
